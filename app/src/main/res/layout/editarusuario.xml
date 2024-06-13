@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextNombreUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Nombre de usuario"
+        android:inputType="text"
+        android:minWidth="100dp"
+        android:minHeight="48dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <EditText
+        android:id="@+id/editTextPrecioContrasena"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Precio"
+        android:inputType="text"
+        android:minWidth="100dp"
+        android:minHeight="48dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextContraseña"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Descripcion"
+        android:inputType="text"
+        android:minWidth="100dp"
+        android:minHeight="48dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextRol"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Stock"
+        android:inputType="text"
+        android:minWidth="100dp"
+        android:minHeight="48dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonActualizar"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="248dp"
+        android:background="#2196F3"
+        android:text="Actualizar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRegresar"
+        android:layout_width="329dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:background="#3F51B5"
+        android:text="Regresar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextStock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Stock"
+        android:inputType="text"
+        android:minWidth="100dp"
+        android:minHeight="48dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDescripcion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Descripcion"
+        android:inputType="text"
+        android:minWidth="100dp"
+        android:minHeight="48dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNombreProducto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:minWidth="100dp"
+        android:minHeight="48dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <EditText
+        android:id="@+id/editTextPrecioProducto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Precio"
+        android:inputType="text"
+        android:minWidth="100dp"
+        android:minHeight="48dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRegresar"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:background="#3F51B5"
+        android:text="Regresar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <Button
+        android:id="@+id/buttonInsertar"
+        android:layout_width="326dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="268dp"
+        android:background="#2196F3"
+        android:text="Insertar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

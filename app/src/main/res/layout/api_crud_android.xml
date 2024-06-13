@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pexels_hngstrm_1939485"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="Correo electrónico"
+            android:inputType="text"
+            android:padding="18dp"
+            android:scrollbarStyle="outsideInset"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:verticalScrollbarPosition="left" />
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:backgroundTint="#2196F3"
+            android:padding="18dp"
+            android:text="Iniciar Sesion"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+</RelativeLayout>
